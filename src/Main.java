@@ -14,10 +14,8 @@ public class Main {
 
         for (Book book : books) {
             System.out.println(book);
+            System.out.println(book.hashCode());
+            System.out.println('~');
         }
-        System.out.println("-----");
-
-        books[1].setYear(1998);
-        System.out.println(books[1]);
     }
 }
